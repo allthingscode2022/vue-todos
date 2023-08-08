@@ -10,16 +10,16 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@vue/cli-service": "^3.4.0",
     "axios": "^0.18.0",
-    "bcrypt": "^3.0.3",
+    "bcrypt": "^3.0.8",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.9",
     "vue": "^2.5.22",
     "vue-flash-message": "^0.7.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
-    "@vue/cli-service": "^3.4.0"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -32,5 +32,9 @@
     "eslint-plugin-vue": "^5.0.0",
     "morgan": "^1.9.1",
     "vue-template-compiler": "^2.5.21"
+  },
+  "engines": {
+    "node": "8.11.4",
+    "npm": "6.7.0"
   }
 }
